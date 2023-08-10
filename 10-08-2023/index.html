@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<body class="bg-secondary-subtle text-emphasis-secondary">
+    <div class="container text-center bg-white">
+        <div class="row">
+            <div class="col bg-primary">
+                <nav class="navbar navbar-expand-lg bg-primary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#">SISTEMA WEB</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <a class="nav-link disabled" aria-disabled="true">Cadastrar</a> 
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#">Consultar</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                &nbsp;
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-start">
+                <div class="mb-3">
+                    <label for="txtnome" class="form-label">Nome:</label>
+                    <input type="text" class="form-control" id="nome" aria-describedby="nome" placeholder="Digite seu nome completo.">
+                </div>
+                <div class="mb-3">
+                    <label for="txttel" class="form-label">Telefone:</label>
+                    <input type="text" class="form-control" id="telefone" aria-describedby="nome" placeholder="(XX) 00000-0000">
+                </div>
+                <div class="mb-3">
+                    <label for="cboorigem" class="form-label">Origem:</label>
+                    <select class="form-select mb-3" aria-label="Default select example">
+                        <option value="Cl">Celular</option>
+                        <option value="Fx">Fixo</option>
+                        <option value="Wa">Whatsapp</option>
+                        <option value="Fb">Facebook</option>
+                        <option value="Ig">Instragram</option>
+                        <option value="Gn">Google Meu Negócio</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="txtdata" class="form-label">Data do Contato:</label>
+                    <input type="text" class="form-control" id="data" aria-describedby="data" placeholder="Digite a data do agendamento.">
+                </div>
+                <div class="mb-3">
+                    <label for="txtobs" class="form-label">Observações:</label>
+                    <textarea class="form-control" id="obs" rows="5"></textarea>
+                </div>
+                <div class="mb-3">
+                    <button type="button" class="btn btn-primary">Cadastrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
